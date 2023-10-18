@@ -1,0 +1,21 @@
+def count_no(n):
+    count=1
+    while count<=n:
+        yield count
+        count=count+1
+
+
+for i in count_no(10):
+    print(i)
+
+
+# Function with yield: Instead of using return, a generator function uses the yield statement to send a value back to the caller.
+
+# Temporary Pausing: When a yield is encountered, the function temporarily pauses its execution and provides the value to the caller without exiting the function.
+
+# State Retained: The generator function remembers its state, including variable values and where it left off, between calls.
+
+# Resumable: This state retention allows the function to continue generating values from where it paused, as you make subsequent calls.
+
+# Lazy Evaluation: Generator functions compute and yield values one at a time, on demand, unlike regular functions that compute and return all values at once. 
+# This is memory-efficient and saves computation time, which is particularly helpful for large datasets.
