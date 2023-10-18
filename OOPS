@@ -1,0 +1,18 @@
+OOPs stand for Object Oriented Programming
+
+Class
+
+  Class is a classification of a real world entity
+  It is also known as blueprint of a real world entity
+
+Object 
+  Object is a variable of of a Class
+  It is also known as instance of a Class
+
+How to create an Object
+
+it is simple
+
+Object_Name=ClassName()
+example
+t=test()
