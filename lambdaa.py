@@ -15,3 +15,5 @@ print(finding_max(5,6))
 s="Pradeep"
 lengths= lambda s: len(s)
 print(lengths(s))
+
+#Some example of lambda functions
